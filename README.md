@@ -1,16 +1,31 @@
-# React + Vite
+# 🚀 Roshani Kumari - Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, high-performance personal portfolio built with **React**, **Tailwind CSS**, and **Vite**. Designed with an interactive UI, verified academic credentials, live project links, and direct resume access.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌟 Highlights
 
-## React Compiler
+- **Branch Topper (#1)** in Diploma CSE with **9.60 CGPA**.
+- **Tech Stack:** React.js, Tailwind CSS, Lucide Icons, Vite.
+- **Backend & Cloud Experience:** Java Spring Boot, MySQL, Aiven Cloud.
+- **Direct Resume Access:** Downloadable & viewable directly from the top navigation bar.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack & Tools
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React.js, Tailwind CSS, JavaScript (ES6+), HTML5, CSS3
+- **Icons & UI:** Lucide React
+- **Build Tool:** Vite
+- **Deployment:** Vercel
+
+---
+
+## 💻 Local Development Setup
+
+To run this project on your local machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/CodeByRoshani/portfolio-web.git](https://github.com/CodeByRoshani/portfolio-web.git)
