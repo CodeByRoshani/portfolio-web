@@ -95,7 +95,8 @@ export const portfolioData = {
       title: "Interactive Developer Portfolio",
       tech: ["React.js", "Tailwind CSS", "Vite", "Lucide Icons", "Vercel"],
       description: "High-performance responsive personal portfolio designed for technical campus placements, featuring a modular JSON data architecture and modern UI.",
-      liveUrl: "portfolio-web-roan-five.vercel.app",
+      liveUrl: "portfolio-web-me-2d1b.vercel.app"
+,
       githubUrl: "https://github.com/CodeByRoshani"
     },
     {
