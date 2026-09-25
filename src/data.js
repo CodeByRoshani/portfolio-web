@@ -2,7 +2,7 @@ export const portfolioData = {
   personal: {
     name: "Roshani Kumari",
     role: "Full-Stack Developer | Java Spring Boot & React",
-    summary: "Diploma CSE (2024–2027) Branch Topper with 9.60 CGPA and 90% in Class 10 (State Board). Skilled in developing responsive React frontends and architecting scalable backend REST APIs using Java Spring Boot, Hibernate, and MySQL (deployed on cloud database services like Aiven).",
+    summary: "Diploma CSE (2024–2027) Branch Topper with 9.60 CGPA and 90% in Class 10 (State Board). Skilled in developing responsive React frontends and architecting secure, scalable backend REST APIs using Java Spring Boot, Spring Security (JWT & OAuth2), Hibernate, and MySQL with automated cloud deployments.",
     resumeLink: "/resume.pdf",
     github: "https://github.com/CodeByRoshani",
     linkedin: "https://www.linkedin.com/in/roshani-kumari-856879368/",
@@ -12,28 +12,72 @@ export const portfolioData = {
     { label: "Academic CGPA", value: "9.60" },
     { label: "Branch Rank", value: "#1 Topper" },
     { label: "Industry Internships", value: "2 Completed" },
-    { label: "Core Stacks", value: "React + Spring Boot" }
+    { label: "Core Stacks", value: "Spring Boot + React" }
   ],
   skillCategories: [
     {
-      title: "Backend & Cloud Services",
-      skills: ["Java (Core + OOPs)", "Spring Boot", "Spring Data JPA", "Hibernate", "RESTful APIs", "Aiven Cloud DB"]
+      title: "Backend & Enterprise Java",
+      skills: [
+        "Java (Core + OOPs)",
+        "Spring Boot",
+        "Spring Data JPA",
+        "Hibernate ORM",
+        "RESTful Microservices",
+        "Logging (SLF4J / Logback)"
+      ]
+    },
+    {
+      title: "Security & Authentication",
+      skills: [
+        "Spring Security",
+        "JWT (JSON Web Tokens)",
+        "OAuth2",
+        "Role-Based Access Control (RBAC)",
+        "CORS & CSRF Protection"
+      ]
     },
     {
       title: "Frontend Engineering",
-      skills: ["React.js", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS", "Responsive UI"]
+      skills: [
+        "React.js",
+        "JavaScript (ES6+)",
+        "HTML5 & Modern CSS3",
+        "Tailwind CSS",
+        "Responsive Web Architecture",
+        "State Management"
+      ]
     },
     {
-      title: "Database Management",
-      skills: ["MySQL", "Schema Design", "Relational Mapping", "SQL Queries & Joins"]
+      title: "Databases & Cloud Storage",
+      skills: [
+        "MySQL",
+        "Aiven Cloud DB",
+        "Schema Design & Indexing",
+        "Relational Mapping",
+        "Complex SQL Queries & Joins"
+      ]
     },
     {
       title: "Core CS Fundamentals",
-      skills: ["Data Structures & Algorithms", "Object-Oriented Programming (OOPs)", "DBMS Concepts", "Operating Systems","Computer network"]
+      skills: [
+        "Data Structures & Algorithms (DSA)",
+        "Object-Oriented Design (OOPs)",
+        "DBMS Architectures",
+        "Operating Systems",
+        "Computer Networks"
+      ]
     },
     {
-      title: "Tools & Deployment",
-      skills: ["Git & GitHub", "Postman", "Maven", "Netlify", "Vercel", "VS Code"]
+      title: "Tools, IDEs & Deployment",
+      skills: [
+        "Git & GitHub",
+        "Eclipse IDE",
+        "VS Code",
+        "Postman API Client",
+        "Maven",
+        "Vercel Deployment",
+        "Render & Netlify Cloud"
+      ]
     }
   ],
   education: [
@@ -44,8 +88,8 @@ export const portfolioData = {
       score: "Branch Topper | 9.60 CGPA",
       highlights: [
         "Consistently maintained 9.60 CGPA and secured the Branch Topper rank in CSE.",
-        "Solid grasp of Java programming, Relational Database Management Systems (MySQL), and Data Structures.",
-        "Demonstrated hands-on engineering by building full-stack cloud-connected projects."
+        "Solid grasp of Java programming, Spring Boot enterprise patterns, and relational databases.",
+        "Demonstrated hands-on engineering by building and deploying cloud-connected full-stack projects."
       ]
     },
     {
@@ -55,7 +99,7 @@ export const portfolioData = {
       score: "Distinction | 90% Marks",
       highlights: [
         "Passed with Distinction securing 90% aggregate marks in State Board examinations.",
-        "Strong foundation in Mathematics and Science fundamentals."
+        "Strong foundation in Mathematics, Logic, and Science fundamentals."
       ]
     }
   ],
@@ -85,32 +129,31 @@ export const portfolioData = {
   ],
   projects: [
     {
-      title: "Full-Stack E-Commerce Platform",
-      tech: ["React.js", "Java Spring Boot", "MySQL", "Aiven Cloud", "Netlify"],
-      description: "Full-stack e-commerce web application with interactive product browsing, shopping cart workflow, and backend RESTful services backed by an Aiven-hosted cloud MySQL database.",
+      title: "Smart ATS AI Resume Analyser",
+      tech: ["React.js", "Groq AI (Llama 3 / Mixtral)", "Tailwind CSS", "PDF Generation", "Render Cloud"],
+      description: "Enterprise-grade ATS compliance evaluator powered by the ultra-fast Groq Cloud AI LLM engine. Evaluates resume text against target job descriptions, computes match percentages, identifies missing critical keywords, suggests actionable optimizations, and features a one-click PDF analysis report download.",
+      liveUrl: "https://smart-ats-resume-analyser.onrender.com",
+      githubUrl: "https://github.com/CodeByRoshani"
+    },
+    {
+      title: "Full-Stack Cloud E-Commerce Platform",
+      tech: ["React.js", "Java Spring Boot", "Spring Data JPA", "MySQL", "Aiven Cloud", "Netlify"],
+      description: "Full-stack scalable online shopping ecosystem featuring dynamic catalog filtering, cart state management, structured JSON REST endpoints, and backend persistence on cloud-hosted Aiven MySQL.",
       liveUrl: "https://ecomerence-frontend.netlify.app/",
       githubUrl: "https://github.com/CodeByRoshani"
     },
     {
       title: "Interactive Developer Portfolio",
       tech: ["React.js", "Tailwind CSS", "Vite", "Lucide Icons", "Vercel"],
-      description: "High-performance responsive personal portfolio designed for technical campus placements, featuring a modular JSON data architecture and modern UI.",
-      liveUrl: "portfolio-web-me-2d1b.vercel.app"
-,
+      description: "High-performance responsive personal portfolio engineered for technical placements. Features dynamic JSON-driven rendering, accessible dark UI, verified academic credentials, and integrated direct resume access.",
+      liveUrl: "https://portfolio-web-roan-five.vercel.app",
       githubUrl: "https://github.com/CodeByRoshani"
     },
     {
-      title: "Interactive Quiz Application",
-      tech: ["JavaScript", "HTML5", "CSS3", "Netlify"],
-      description: "Dynamic quiz platform featuring real-time score calculation, countdown timers, category selection, and instant feedback on answers.",
+      title: "Interactive Real-Time Quiz Application",
+      tech: ["JavaScript (ES6+)", "HTML5", "CSS3", "DOM APIs", "Netlify"],
+      description: "Dynamic assessment engine with real-time score tracking, category selection, animated countdown timers, and instant analytical feedback on answers.",
       liveUrl: "https://quizapp-by-roshani.netlify.app/",
-      githubUrl: "https://github.com/CodeByRoshani"
-    },
-    {
-      title: "Smart AI Resume Analyser",
-      tech: ["React.js", "JavaScript", "CSS3", "Tailwind CSS"],
-      description: "Application designed to analyze resumes, evaluate keyword density against job descriptions, and highlight core technical strengths for placements.",
-      liveUrl: " https://smart-ats-resume-analyser.onrender.com",
       githubUrl: "https://github.com/CodeByRoshani"
     }
   ],
@@ -155,6 +198,7 @@ export const portfolioData = {
     "Consecutive Branch Topper (Rank #1) in Diploma CSE across 1st Year and 2nd Year with 9.60 CGPA.",
     "Secured 90% aggregate in Secondary School Examination (Class X - State Board).",
     "Engineered and deployed a Full-Stack E-Commerce web app using Spring Boot, React, and Aiven Cloud MySQL.",
+    "Built Groq LLM-powered Smart ATS Analyzer featuring live PDF report generation and keyword parsing.",
     "Solved 150+ Data Structures & Algorithms questions with strong grasp of Java OOPs fundamentals."
   ]
 };
