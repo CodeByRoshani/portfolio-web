@@ -26,11 +26,13 @@ export default function App() {
             </span>
           </div>
 
+          {/* Resume Button in Navbar */}
           <div className="flex items-center gap-3">
             <a 
-              href={personal.resumeLink} 
+              href="/ROSHANI_RESUME.pdf" 
               target="_blank" 
               rel="noreferrer" 
+              download="ROSHANI_RESUME.pdf"
               className="flex items-center gap-2 text-xs sm:text-sm bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 text-white font-medium px-4 py-2 rounded-lg transition-all shadow-lg shadow-blue-500/20 active:scale-95"
             >
               <FileText size={15} /> Resume

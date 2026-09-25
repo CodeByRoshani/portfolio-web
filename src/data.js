@@ -3,7 +3,7 @@ export const portfolioData = {
     name: "Roshani Kumari",
     role: "Full-Stack Developer | Java Spring Boot & React",
     summary: "Diploma CSE (2024–2027) Branch Topper with 9.60 CGPA and 90% in Class 10 (State Board). Skilled in developing responsive React frontends and architecting secure, scalable backend REST APIs using Java Spring Boot, Spring Security (JWT & OAuth2), Hibernate, and MySQL with automated cloud deployments.",
-    resumeLink: "/resume.pdf",
+    resumeLink: "/ROSHANI_RESUME.pdf",
     github: "https://github.com/CodeByRoshani",
     linkedin: "https://www.linkedin.com/in/roshani-kumari-856879368/",
     email: "roshanikuamri156@gmail.com"
