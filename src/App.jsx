@@ -29,7 +29,7 @@ export default function App() {
           {/* Resume Button in Navbar */}
           <div className="flex items-center gap-3">
             <a 
-              href="/ROSHANI_RESUME.pdf" 
+              href="/MY_RESUME.pdf" 
               target="_blank" 
               rel="noreferrer" 
               download="ROSHANI_RESUME.pdf"
