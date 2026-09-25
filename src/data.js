@@ -109,7 +109,7 @@ export const portfolioData = {
       title: "Smart AI Resume Analyser",
       tech: ["React.js", "JavaScript", "CSS3", "Tailwind CSS"],
       description: "Application designed to analyze resumes, evaluate keyword density against job descriptions, and highlight core technical strengths for placements.",
-      liveUrl: "#",
+      liveUrl: " https://smart-ats-resume-analyser.onrender.com",
       githubUrl: "https://github.com/CodeByRoshani"
     }
   ],
